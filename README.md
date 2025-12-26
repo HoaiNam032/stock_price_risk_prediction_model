@@ -118,6 +118,8 @@ The project produces:
 Results are visualized directly in the dashboard.
 
 
+<img width="1919" height="870" alt="image" src="https://github.com/user-attachments/assets/b86da62a-263a-49ac-ba99-e34f8875612e" />
+
 
 
 
