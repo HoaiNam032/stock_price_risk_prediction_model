@@ -79,3 +79,10 @@ The project uses historical price data for multiple stock tickers.
 ### Install dependencies
 ```bash
 pip install -r requirements.txt
+
+---
+
+### Data preprocessing
+```bash
+python src/data_preprocessing.py
+
