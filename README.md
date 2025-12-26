@@ -94,7 +94,7 @@ python src/model_training.py
 ### 📈 Dashboard & Visualization
 ```bash
 python risk_dashboard.py
-
+```
 ---
 ## 📂 Project Structure
 ```bash
@@ -114,7 +114,9 @@ The project produces:
 - Quantile-based risk estimates from LightGBM and XGBoost
 - Monte Carlo return distributions
 - CSV-based risk reports for further analysis
+
 Results are visualized directly in the dashboard.
+
 
 
 
