@@ -80,9 +80,44 @@ The project uses historical price data for multiple stock tickers.
 ```bash
 pip install -r requirements.txt
 
----
+```
 
 ### Data preprocessing
 ```bash
 python src/data_preprocessing.py
+```
+### Model training
+```bash
+python src/model_training.py
+
+```  
+### 📈 Dashboard & Visualization
+```bash
+python risk_dashboard.py
+
+---
+## 📂 Project Structure
+```bash
+📦 stock_price_risk_prediction_model
+├── 📁 configs/      
+├── 📁 data/           
+├── 📁 models/        
+├── 📁 src/            
+├── README.md
+├── risk_dashboard.py
+├── requirements.txt
+└── run_dashboard.bat
+
+```
+### Results
+The project produces:
+- Quantile-based risk estimates from LightGBM and XGBoost
+- Monte Carlo return distributions
+- CSV-based risk reports for further analysis
+Results are visualized directly in the dashboard.
+
+
+
+
+
 
